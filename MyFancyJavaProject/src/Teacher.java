@@ -1,14 +1,20 @@
 public class Teacher extends Person {
     
     String qualification;
-    private static Teacher instance = new Teacher();
+    private static Teacher instance;
 
     private Teacher(){
 
     }
 
     public static Teacher getInstance(){
-        return instance;
+        
+            if (instance == null){
+                instance = new Teacher();
+            }
+            return instance;
+        
+        
     }
                           
             void show2(){
