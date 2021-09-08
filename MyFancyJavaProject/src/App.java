@@ -2,7 +2,7 @@
 public class App {
     public static void main(String[] args) {
                     
-                        Teacher t1 = new Teacher();
+                        Teacher t1 = Teacher.getInstance();
                         
                         t1.name = "Rhr";
                         t1.age = 22;
