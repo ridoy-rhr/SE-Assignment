@@ -20,6 +20,7 @@ public class Teacher extends Person {
             void show2(){
                 show1();
                 System.out.println(qualification);
+                
             }
            
 }
